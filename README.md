@@ -1,39 +1,52 @@
 # Insertion-Sort-Vs-Selection-Sort
 PERFORMANCE ANALYSIS OF SELECTION SORT vs INSERTION SORT
 
-OBJECTIVE
+OBJECTIVE: 
+
 This research evaluates and compares the performance characteristics of two quadratic complexity sorting algorithms: Selection Sort and Insertion Sort. Key performance metrics including CPU time, wall clock time, comparisons, swaps, and relative performance to Python's built-in sort were analyzed. A randomized dataset of 1,000 integers was used, and each algorithm was executed 100 times to ensure consistent and accurate timing results. All data, metrics, graphs, and formulas were derived from a Python program built for this study.
 
-INTRODUCTION
+INTRODUCTION:
+
 Sorting algorithms are essential in computer science for organizing data. While efficient algorithms like Merge Sort and exist, analyzing basic algorithms like Selection Sort and Insertion Sort provides foundational insights. This study focuses on their performance on a large, randomized dataset.
 
 METHODOLOGY
+
 Test Setup
+
 •	Language: Python 3.x
+
 •	Dataset: 1,000 random integers stored in data/input_data.txt
+
 •	Repeats per test: 100 times per algorithm
+
 •	Metrics captured: CPU time, wall time, swaps, comparisons, ratio to built-in sort
+
 •	Graphs exported: wall time, CPU time, comparisons, swaps, ratio vs built-in
+
 •	Output CSV: data/sort_results.csv
+
+
 Tools Used
+
 •	Python built-in libraries: time, csv, os, matplotlib.pyplot
+
 •	Graphs saved using matplotlib
+
 •	Timing with time.process_time() and time.time()
+
 •	Comparison and swap counts instrumented inside sorting functions
+
 Input Data 
+
 Random integers between 1–999, saved in input_data.txt. Sample:
 663 551 985 442 24 776 990 450 288 897 535 58 159 626 49 792 464 301 279 616 ... (1000 total)
 
-
-
-
-
-
 FORMULA
+
 Metric Computation
 To obtain statistically significant timing data, we computed the arithmetic mean over 100 repetitions.
-Mean CPU Time
 
+Mean CPU Time
 
 
 
