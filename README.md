@@ -1,4 +1,5 @@
-# Insertion-Sort-Vs-Selection-Sort
+# Report on Performance Analysis between Selection Sort
+and Insertion Sort
 PERFORMANCE ANALYSIS OF SELECTION SORT vs INSERTION SORT
 
 OBJECTIVE: 
